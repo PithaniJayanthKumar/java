@@ -76,6 +76,14 @@ public class Employee {
 	public Employee() {
 		// TODO Auto-generated constructor stub
 	}
+	
+	
+
+	@Override
+	public String toString() {
+		return "Employee [empid=" + empid + ", name=" + name + ", salary=" + salary + ", designation=" + designation
+				+ "]";
+	}
 
 	/**
 	 * @param args

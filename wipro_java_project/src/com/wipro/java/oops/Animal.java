@@ -83,6 +83,13 @@ public class Animal {
 	public Animal() {
 		// TODO Auto-generated constructor stub
 	}
+	
+	
+
+	@Override
+	public String toString() {
+		return "Animal [name=" + name + ", behaviour=" + behaviour + ", legs=" + legs + ", colour=" + colour + "]";
+	}
 
 	/**
 	 * @param args
