@@ -16,9 +16,9 @@ public class ExceptionExample {
 	 */
 	public static void main(String a[]) {
 		// TODO Auto-generated method stub
-		int i=9, j=0, data;
+		int num1=9, num2=0, value;
 		try {
-			data = i/j;
+			value = num1/num2;
 		}
 		catch(Exception e) {
 			System.out.println(e.toString());
