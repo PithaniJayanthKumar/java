@@ -6,17 +6,18 @@ package com.wipro.java.oops;
 /**
  * 
  */
+// Abstract Super class
 public abstract class Library {
 	
 	/**
 	 * @param title
 	 * @param author
 	 */
-
+	// encapsulation:  private variables
 	private String title;
 	private String author;
 
-	
+	//Constructor to initialize the fields
 	public Library(String title, String author) {
 		super();
 		this.title = title;
@@ -52,7 +53,7 @@ public abstract class Library {
 		this.author = author;
 	}
 
-
+	//Abstraction: Abstract method(must be implemented by subclasses)
 	public abstract void viewDetails();
 
 }
