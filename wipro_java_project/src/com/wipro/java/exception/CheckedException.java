@@ -3,19 +3,20 @@
  */
 package com.wipro.java.exception;
 
-/**
- * 
- */
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
+
 public class CheckedException {
 
 	public static void main(String a[]) {
-		int num1= 100, num2=0, result;
 		
 		try {
-			result = num1/num2;
+			File file=new File("wrong path");
+			FileReader reader = new FileReader(file);
 			
 		}
-		catch(ArithmeticException e){
+		catch(IOException e){
 			System.out.println(e.getStackTrace());
 			
 		}
