@@ -3,12 +3,6 @@
  */
 package com.wipro.java.collection;
 
-
-//java program to demonstrate 
-//the use of comparable for sorting
-import java.util.ArrayList;
-import java.util.Collections;
-
 //Movie class implements Comparable interface to define default String
 class Movie implements Comparable<Movie> {
 	
