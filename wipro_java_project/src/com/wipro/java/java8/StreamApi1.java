@@ -16,7 +16,7 @@ public static void main(String a[]) {
 		List<Integer> sortedNumbers = numbers.stream().
 				sorted().
 				collect(Collectors.toList());
-		System.out.println(numbers);
+		System.out.println(sortedNumbers);
 		
 		List<Integer> numbers1 = Arrays.asList(10,20,5,25,30);
 		
@@ -24,7 +24,8 @@ public static void main(String a[]) {
 		
 		int max = numbers1.stream().max(Integer::compare).get();
 				
-		System.out.println(numbers1);
+		System.out.println(min);
+		System.out.println(max);
 	
 	
 
